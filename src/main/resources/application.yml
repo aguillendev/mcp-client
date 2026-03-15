@@ -4,7 +4,7 @@ spring:
       enabled: true
   ai:
     openai:
-      api-key: ${OPENAI_API_KEY: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}
+      api-key: ${OPENAI_API_KEY}
       chat:
         options:
           model: gpt-4o-mini   # opciones: gpt-4o-mini | gpt-4o | gpt-4-turbo | gpt-3.5-turbo
