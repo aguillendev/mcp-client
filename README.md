@@ -1,6 +1,6 @@
 # Cliente MCP (Model Context Protocol) con Spring AI
 
-Este proyecto demuestra cómo crear un cliente MCP en un proyecto Spring Boot (3.3+) utilizando Java 21 y la integración oficial de Spring AI. El cliente se conecta a un servidor remoto MCP utilizando el transporte de Server-Sent Events (SSE).
+Este proyecto demuestra cómo crear un cliente MCP en un proyecto Spring Boot (3.4+) utilizando Java 21 y la integración oficial de Spring AI. El cliente se conecta a un servidor remoto MCP utilizando el transporte de Server-Sent Events (SSE).
 
 ## Explicación: ¿Cómo recupera el cliente la lista de herramientas?
 

@@ -29,7 +29,6 @@
 		<dependency>
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-mcp</artifactId>
-            <version>${spring-ai.version}</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
@@ -44,6 +43,7 @@
 		</dependencies>
 	</dependencyManagement>
     <repositories>
+        <!-- The milestones and snapshots aren't strictly required for a final release, but keeping them just in case -->
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
