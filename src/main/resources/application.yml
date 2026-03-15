@@ -1,0 +1,11 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:fake-api-key}
+
+playmatch:
+  mcp:
+    server-url: http://localhost:8080/sse
